@@ -1,0 +1,6 @@
+[module/load-average]
+type = custom/script
+exec = uptime | grep -ohe 'load average[s:][: ].*' | awk '{ print $3"  "$4"  "$5"," }' | sed 's/,//g'
+interval = 10
+
+label = %output%  
