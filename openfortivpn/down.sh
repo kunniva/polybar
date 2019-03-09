@@ -10,4 +10,5 @@ else
 	killall openfortigui
 fi
 
-#Los procesos con "sudo openfortigui" son los que se ejecutan desde la barra por consola.#Los proceos de programa openfortigui son los ejecutados desde la interface gráfica del programa.
+#Los procesos con "sudo openfortigui" son los que se ejecutan desde la barra por consola.
+#Los proceos de programa openfortigui son los ejecutados desde la interface gráfica del programa.
