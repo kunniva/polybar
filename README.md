@@ -1,2 +1,2 @@
 # polybar
-Modulos para polybar
+Modulos & config polybar
